@@ -1,0 +1,27 @@
+.angSearch{
+  
+}
+
+
+
+
+/* SEARCH HOVER CODE */
+
+
+
+
+
+
+
+/* CHANGE LOGO LOCATION */
+
+@media (min-width: 768px) {
+  .navbar-brand
+      {
+          position: absolute;
+          left: 50%;
+          transform: translateX(-50%);
+      }
+  }
+  
+/* CHAGNE LOGO LOCATION END */
