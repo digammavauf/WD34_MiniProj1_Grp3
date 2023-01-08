@@ -1,30 +1,5 @@
-/*   PRODUCT LIST     */
-var productKey = [
-    {
-        name: "Windows 7",
-        code: "p1",
-        price: "1500",
-        img: "../img/product/p1.png"
-    },
-    {
-        name: "Windows 8.1",
-        code: "p2",
-        price: "1500",
-        img: "../img/product/p2.jpg"
-    },
-    {
-        name: "MS Office 2021",
-        code: "p3",
-        price: "500",
-        img: "../img/product/p3.png"
-    },
-    {
-        name: "SQL Server",
-        code: "p4",
-        price: "500",
-        img: "../img/product/p4.svg"
-    },
-];
+import {productKey} from './productList.js'
+
 
 /* RANDOM PRODUCTS DISPLAY ON CARDS */
 
@@ -39,15 +14,21 @@ function randomNoRepeats(array) {
     };
   }
 
-let chooser = randomNoRepeats(productKey);  
+let chooser = randomNoRepeats(productKey.slice(0,6));  
 
-
+/* ROW 1 */
 document.querySelector(".a1").src = chooser().img;
 document.querySelector(".a2").src = chooser().img;
 document.querySelector(".a3").src = chooser().img;
 document.querySelector(".a4").src = chooser().img;
+/* ROW 3 */
+let chooser2 = randomNoRepeats(productKey.slice(6,10 )); 
+document.querySelector(".a5").src = chooser2().img;
+document.querySelector(".a6").src = chooser2().img;
+document.querySelector(".a7").src = chooser2().img;
+document.querySelector(".a8").src = chooser2().img;
 
 
-
+console.log(productKey[0].name)
 console.log(chooser().img)
 /* END */
