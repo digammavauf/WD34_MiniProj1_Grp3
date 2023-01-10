@@ -1,0 +1,189 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar{
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    text-align: center;
+    background-color: black ;
+}
+
+
+
+ul li{
+    display: inline-block;
+    padding: 10px;
+   
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+ul li :hover{
+    text-decoration: none;
+    color: green;
+    transition: 0.5s;
+}
+
+.container-fluid h1{
+    letter-spacing: 10px;
+}
+.container-fluid p{
+    letter-spacing: 2px;
+}
+
+
+.form-box{
+    width: 380px;
+    height: 480px;
+    border: 1px solid;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 20px;
+    box-shadow: 10px 10px 7px gray;
+}
+
+.button-box{
+    width: 320px;
+    margin: 35px;
+    box-shadow: 0 0 20px 9px;
+
+}
+
+.btn{
+    background-color: blue;
+    margin-bottom: 10px;
+}
+
+
+
+.register-Box{
+  
+    margin-top: 70px;
+    padding: 10px;
+    height: auto;
+    letter-spacing: 0px;
+    width: 550px;
+    text-align: center;
+    
+}
+.register-Box h1{
+    text-align: center;
+    padding-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.register-Box p{
+    text-align: center;
+    line-height: 30px;
+}
+
+
+
+.register-Box .register-btn{
+    width: 100px;
+    text-align: center;
+    position: relative;
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+    height: 30px;
+
+}
+
+
+
+
+
+/*Before Footer*/
+
+
+
+.card-header h6{
+    font-weight: lighter;
+    font-size: medium;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.card-title p{
+    font-family: sans-serif;
+    font-weight:lighter;
+    width: 70%;
+    padding-top: 20px;
+    margin-left: 90px;
+    line-height: 30px;
+    letter-spacing:  2px;
+    text-align: center;
+}
+
+.passwordRecover{
+    text-decoration: none;
+}
+
+
+
+
+
+/*TESTIMONIALS SECTION*/
+
+
+
+.imgprofile{
+    border-radius: 50%;
+    height: 100px;
+    margin-left: 90px;
+    margin-top: 10px;
+}
+
+.testimonialProfile p{
+    margin-left: 90px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.profilecomments{
+text-align: start;
+align-items: center;
+justify-content:  center;
+padding-top: 20px;
+margin-right: 90px;
+
+}
+
+
+.rating{
+    margin-left: 70px;
+    text-align: start;
+    position: relative;
+    top: 20px;
+    cursor: pointer;
+}
+.rating2{
+    margin-left: 70px;
+    text-align: start;
+    position: relative;
+    top: 8px;
+    cursor: pointer;
+
+}
+
+.fa-solid{
+    color: yellow;
+}
+
+
+.carousel-inner{
+    box-shadow: 10px 10px 10px 5px gray;
+    padding-top: 20px;
+    height: 300px;
+
+    
+}
