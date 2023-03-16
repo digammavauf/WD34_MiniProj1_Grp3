@@ -1,0 +1,117 @@
+/*Intro Nav*/
+.navbar{
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    text-align: center;
+    background-color: black ;
+}
+ul li{
+    display: inline-block;
+    padding: 10px;
+   
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+ul li :hover{
+    text-decoration: none;
+    color: green;
+    transition: 0.5s;
+}
+/*end Nav*/
+
+
+
+
+
+
+
+.myHero{
+    width: 100vw;
+    height: 87vh;
+    background-color: rosybrown;
+}
+<<<<<<< HEAD
+/* INSTRUCTION SECTION */
+.howto{
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+    /* width: 100%; */
+    padding-top: 3%;
+    margin-top: .3%;
+    margin-left: 10%;
+    margin-right: 10%;
+=======
+
+.featuredProducts{
+>>>>>>> 0a2bcaf10df7b1fcaba7016db5c5035e1a68f271
+
+}
+#lineSpacer{
+    width: 12%;
+}
+/* CARD STYLE */
+.card-image-top{
+    height: 500px;
+}
+.cardSection{
+    margin-top: 70px;
+}
+.cardSection h1{
+    margin-left: 136px;
+}
+.card{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    height: 400px;
+    overflow: hidden;
+    position: relative;    
+}
+.addToCart .btn{
+    background-color:#93C572;
+}
+
+/* PRICE POSTION TO BOTTOM OF CARD */
+#price{
+    position: absolute;
+    top: 93%;
+}
+/* HOVER BUTTONS */
+.card .addToCart{
+    visibility: hidden;
+      
+}
+.addToCart button{
+    width: 150px;
+    margin: 2px;
+}
+/* CARD HOVER EFFECT */
+.card:hover{
+    
+    filter: brightness(.75);
+}
+.card:hover  .addToCart{
+    visibility: visible;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    z-index: 99;
+}
+
+
+
+/* 
+@media (max-width: 770px){
+    .card{
+        background-color: black;
+        margin-left: 0px;
+    }
+}
+
+ */

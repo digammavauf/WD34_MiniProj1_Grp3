@@ -1,0 +1,46 @@
+
+.myHero{
+    width: 100vw;
+    height: 80vh;
+    background-color: rosybrown;
+}
+.featuredProducts{
+
+   /*  display: flex; */
+    
+   
+}
+.cardSection{
+    margin-top: 70px;
+}
+.card{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+}
+.card .addToCart{
+    visibility: hidden;
+      
+}
+.addToCart button{
+    width: 150px;
+    margin: 2px;
+}
+
+.card:hover{
+    filter: brightness(.75);
+}
+.card:hover  .addToCart{
+    visibility: visible;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    z-index: 99;
+}
+
+
+
+
+

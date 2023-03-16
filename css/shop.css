@@ -1,0 +1,92 @@
+
+/* SHOP NAV STYLE */
+
+.searchPanel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+}
+.btn{
+    
+    font-weight: bolder;
+}
+/* .dropdown{
+    margin-right: 90px;
+}
+ */
+
+#searchCard{
+    background-color: bisque;
+    
+    width: 100%;
+    height: 600px;
+}
+
+
+/* SHOP LAND PAGE STYLE */
+
+.lalagyan{
+   
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.column h2{
+    font-size: 2vw;
+}
+.column p{
+    margin-bottom: 0px;
+}
+.column h5{
+    margin-bottom: 0px;
+}
+
+.column {
+    position: relative;
+    width: 100%;
+   /*  padding: 4px; */
+  }
+  .column h2, p{
+    padding-left:6%;
+
+  
+  }
+  .column button{
+    position: absolute;
+    color: rgb(190, 238, 17);
+    bottom: 0;
+    right: 0;
+  }
+  .column img{
+    position: absolute;
+    width: 70px;
+    top: 0;
+    left: 0;
+    z-index: 3;
+  }
+  .column button:hover{
+    position: absolute;
+    /* border-color: #38E54D; */
+    color: rgb(190, 238, 17);
+    
+
+}
+  .column h5{
+    position: absolute;
+    bottom: 0;
+    right: 150px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+
+
+  @media (max-width: 900px){
+   
+  }
