@@ -1,4 +1,4 @@
-fetch("../sub/nav.html")
+fetch("sub/nav.html")
 .then(res => res.text())
 .then(text => {
     let oldelem = document.querySelector("script#myNav");
@@ -9,7 +9,7 @@ fetch("../sub/nav.html")
 
 
 
-fetch("../sub/footer.html")
+fetch("sub/footer.html")
 .then(res => res.text())
 .then(text => {
     let oldelem = document.querySelector("script#myFooter");
@@ -20,7 +20,7 @@ fetch("../sub/footer.html")
 
 
 
-fetch("../sub/shopNav.html")
+fetch("sub/shopNav.html")
 .then(res => res.text())
 .then(text => {
     let oldelem = document.querySelector("script#shopNav");
